@@ -4,6 +4,8 @@
 
 A high-performance CRT TV display system using ESP32 and composite NTSC video output. Render images, gradients, and animations directly to vintage composite video displays.
 
+![ESP32-WROM-32E Demo - Rotating 3D Cube on CRT](screen.png)
+
 ## Features
 
 - **320×240 composite NTSC video output** via RCA jack
