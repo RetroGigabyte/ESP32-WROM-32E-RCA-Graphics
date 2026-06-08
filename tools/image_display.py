@@ -156,9 +156,13 @@ class ImageDisplay:
         if r > 110 and g > 50 and g < 110 and b < 80 and (r - g) > 40:
             return self.apply_color_brightness(35, brightness_val)
 
-        # Check for tan (moderate red, low green diff, low blue)
+        # Check for gold (high R and G, low B, R > G)
+        if r > 180 and g > 140 and b < 100 and r > g and (r - g) > 20 and (r - g) < 100:
+            return self.apply_color_brightness(35, brightness_val)  # Gold as orange
+
+        # Check for tan/gold (moderate red, low green diff, low blue)
         if r > 90 and g > 50 and g < 100 and b < 80 and (r - g) > 5 and (r - g) < 50:
-            return self.apply_color_brightness(34, brightness_val)
+            return self.apply_color_brightness(35, brightness_val)  # Orange (better than yellow)
 
         # Check for magenta/pink (map pink tones to hue 165) - strict to avoid over-matching
         if r > 100 and b > 120 and g < 80 and abs(int(r) - int(b)) < 50:
