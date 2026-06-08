@@ -88,6 +88,24 @@ The system uses a specialized palette optimized for NTSC composite video:
 
 See [COLOR_PALETTE.md](COLOR_PALETTE.md) for detailed color testing notes.
 
+### Color Testing Notes
+
+**Actual Display Behavior (CRT TV):**
+- **Hue 90** displays as light blue (cyan), not magenta
+- **Hue 165** displays as pink/magenta, not cyan
+- Each color has optimal brightness range for saturation
+
+**Brightness Tuning:**
+- **Lower brightness (5-50)** = more saturated, deeper colors
+- **Higher brightness (150-255)** = lighter, washed-out appearance
+- Sweet spot varies per hue (see color palette table for recommendations)
+
+**Tips:**
+- Test colors on your specific TV model first
+- Use `tools/image_display.py --preview` to test before rendering
+- Adjust `color_brightness` multipliers in image_display.py for your display
+- Colors may vary significantly between CRT models
+
 ## Tools
 
 ### `image_display.py`
