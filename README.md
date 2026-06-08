@@ -213,6 +213,16 @@ self.color_brightness = {
 
 Higher values = brighter colors on your TV.
 
+## Inspired By
+
+Built with gratitude for:
+
+- **[Bitluni](https://bitluni.net/)** - [ESP32CompositeVideo](https://github.com/bitluni/ESP32CompositeVideo) - pioneering ESP32 composite video output
+- **[Peter Barrett (rossumur)](https://github.com/rossumur)** - [ESP_8_BIT](https://github.com/rossumur/esp_8_bit) - Audio Phase Locked Loop NTSC implementation
+- **[Marcio Teixeira (marciot)](https://github.com/marciot)** - [ESP32CompositeColorVideo](https://github.com/marciot/ESP32CompositeColorVideo) - library package and color support
+
+Their open-source work made this project possible.
+
 ## References
 
 - [CompositeGraphics Library](lib_composite_color/)
