@@ -149,14 +149,6 @@ python3 tools/tv_control.py gradient 0.05
 python3 tools/tv_control.py
 ```
 
-### `image_converter.py`
-
-Convert images to raw RGB format for SD card storage.
-
-```bash
-python3 tools/image_converter.py <input_image> <output_file.raw>
-```
-
 ## Performance Notes
 
 - **MAX_SQUARES = 12,250** objects maximum (memory limited by graphics framebuffer at 77KB)
