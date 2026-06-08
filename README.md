@@ -1,6 +1,6 @@
 # ESP32-WROM-32E RCA Graphics
 
-> **AI Disclaimer:** This project was developed with the assistance of Claude AI. We believe AI-written code should be open source to benefit the community and maintain transparency.
+> **AI Disclaimer:** This project was developed with the assistance of Claude AI. I believe AI-written code should be open source to benefit the community and maintain transparency.
 
 A high-performance CRT TV display system using ESP32 and composite NTSC video output. Render images, gradients, and animations directly to vintage composite video displays.
 
