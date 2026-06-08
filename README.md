@@ -22,6 +22,12 @@ ESP32 Pin 25  ──────> RCA Video Out (yellow)
 ESP32 GND     ──────> RCA Ground (black)
 ```
 
+### Display Compatibility
+
+**Best on CRT TVs** - This project is optimized for CRT displays with composite video inputs. CRTs naturally handle analog composite signals with excellent color accuracy and minimal artifacts.
+
+**On LCD displays** - LCDs with composite inputs will work but may appear fuzzy due to analog-to-digital conversion and upscaling. This is a limitation of composite video on modern digital displays, not the project. For crisp results, use a CRT TV.
+
 ## Quick Start
 
 ### 1. Compile and Upload Firmware
