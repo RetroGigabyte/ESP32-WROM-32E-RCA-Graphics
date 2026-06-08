@@ -218,7 +218,7 @@ Higher values = brighter colors on your TV.
 Built with gratitude for:
 
 - **[Bitluni](https://bitluni.net/)** - [ESP32CompositeVideo](https://github.com/bitluni/ESP32CompositeVideo) - pioneering ESP32 composite video output
-- **[Peter Barrett (rossumur)](https://github.com/rossumur)** - [ESP_8_BIT](https://github.com/rossumur/esp_8_bit) - Audio Phase Locked Loop NTSC implementation
+- **[Peter Barrett (rossumur)](https://github.com/rossumur)** - [ESP_8_BIT](https://github.com/rossumur/esp_8_bit) - APLL-based stable NTSC video synchronization
 - **[Marcio Teixeira (marciot)](https://github.com/marciot)** - [ESP32CompositeColorVideo](https://github.com/marciot/ESP32CompositeColorVideo) - library package and color support
 
 Their open-source work made this project possible.
