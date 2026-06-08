@@ -252,7 +252,7 @@ Their open-source work made this project possible.
 
 ## License
 
-Open source - modify and use as needed.
+Open source - modify and use as needed. (Preferably leave credit!)
 
 ---
 
